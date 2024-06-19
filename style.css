@@ -1,0 +1,166 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.common-button {
+  height: 56px;
+  color: #458ff6;
+  padding: 0 50px;
+  border-radius: 55px;
+  font-size: 18px;
+  font-weight: 700;
+  border:1px solid #458ff6;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+header {
+  padding-top: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: -60px;
+  background-color: #fff;
+  padding-bottom: 30px;
+}
+
+.menu-items {
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.logo {
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #462E6A;
+  text-decoration: none;
+}
+
+.menu-item {
+  list-style-type: none;
+  width: 80px;
+}
+
+.menu-item a {
+  font-size: 18px;
+  color: #1F1534;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.menu-item a:hover {
+  color: #2E4E92;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  padding: 145px 0 235px 0;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 56px;
+  color: #3C567B;
+  font-weight: 700;
+}
+
+
+
+.main-description {
+
+}
+
+.main-description .common-button {
+  background-color: #458ff6;
+  color: #fff;
+}
+
+.main-description p {
+  color: #93C1F9;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 27px;
+  margin-bottom: 140px;
+}
+
+.main-picture {
+  width: 577px;
+  height: 392px;
+}
+
+footer {
+  color: #fff;
+  height: 400px;
+  background: linear-gradient(183.41deg, #6888C8 -8.57%, #5A98F2 82.96%);
+}
+
+.footer-content {
+  display: flex;
+}
+
+.footer-content-block {
+  flex: 1;
+  padding-top: 120px;
+}
+
+.footer-logo {
+  font-size: 29px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-content p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  width: 360px;
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-copyright {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.footer-menu-items {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu-item {
+  list-style-type: none;
+}
+
+.footer-menu-item a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 100;
+  line-height: 38px;
+  font-size: 18px;
+}
+
+.footer-navigation-title {
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
